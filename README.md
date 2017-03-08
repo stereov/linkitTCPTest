@@ -7,4 +7,4 @@
 (5) 打开TCP调试软件(我用的是USR-TCP232)，填入开发板的ip，并设置为TCP Client,并连接<br>
 (6) 调试软件连接成功后，发送任意内容给开发板，开发板会回复预定的内容，例子给的是“Hello Client” <br>
 ![github](https://github.com/stereov/linkitTCPTest/raw/master/image/results.PNG)  <br>
-我看来下代码，这个连接是单次的，开发板回复后会自动关闭socket，可以按自己要求修改，也可以加入LCD显示。
+我看了下代码，这个连接是单次的，开发板回复后会自动关闭socket，可以按自己要求修改，也可以加入LCD显示。
